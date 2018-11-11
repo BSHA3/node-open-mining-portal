@@ -1,0 +1,5 @@
+{
+    "name": "BSHA3",
+    "symbol": "BSHA3",
+    "algorithm": "sha3d"
+}
