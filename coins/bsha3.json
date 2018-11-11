@@ -1,5 +1,8 @@
 {
     "name": "BSHA3",
     "symbol": "BSHA3",
-    "algorithm": "sha3d"
+    "algorithm": "sha3d",
+    "peerMagic": "fabfb5da",
+    "peerMagicTestnet": "0b110907"
+	
 }
