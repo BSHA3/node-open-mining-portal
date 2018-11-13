@@ -9,12 +9,12 @@
         "server",
         "poolserver",
         "bitcoin",
-        "litecoin",
-        "scrypt"
+        "bsha3",
+        "sha3d"
     ],
-    "homepage": "https://github.com/russkidooski/node-open-mining-portal.git",
+    "homepage": "https://github.com/bsha3/node-open-mining-portal.git",
     "bugs": {
-        "url": "https://github.com/russkidooski/node-open-mining-portal.git/issues"
+        "url": "https://github.com/bsha3/node-open-mining-portal.git/issues"
     },
     "license": "GPL-2.0",
     "author": "Matthew Little",
@@ -28,10 +28,10 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/russkidooski/node-open-mining-portal.git"
+        "url": "https://github.com/bsha3/node-open-mining-portal.git"
     },
     "dependencies": {
-        "stratum-pool": "git://github.com/brian112358/node-stratum-pool.git",
+        "stratum-pool": "git://github.com/bsha3/node-stratum-pool.git",
         "dateformat": "1.0.12",
         "node-json-minify": "*",
         "redis": "0.12.1",
