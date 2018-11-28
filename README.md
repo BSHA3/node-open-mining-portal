@@ -149,6 +149,13 @@ rpcuser=litecoinrpc
 rpcpassword=securepassword
 rpcport=19332
 ```
+
+Also required:
+```
+./bsha3-cli settxfee 0.00005
+```
+
+
 For redundancy, its recommended to have at least two daemon instances running in case one drops out-of-sync or offline,
 all instances will be polled for block/transaction updates and be used for submitting blocks. Creating a backup daemon
 involves spawning a daemon using the `-datadir=/backup` command-line argument which creates a new daemon instance with

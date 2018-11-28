@@ -378,8 +378,10 @@ function SetupForPool(logger, poolOptions, setupFinished){
                         if (toSend >= minPaymentSatoshis) {
                             totalSent += toSend;
                             var address = worker.address = (worker.address || getProperAddress(w));
-                            worker.sent = addressAmounts[address] = satoshisToCoins(toSend);
-                            worker.balanceChange = Math.min(worker.balance, toSend) * -1;
+                            if (address) {
+                              worker.sent = addressAmounts[address] = satoshisToCoins(toSend);
+                              worker.balanceChange = Math.min(worker.balance, toSend) * -1;
+                            }
                         }
                         else {
                             worker.balanceChange = Math.max(toSend - worker.balance, 0);
